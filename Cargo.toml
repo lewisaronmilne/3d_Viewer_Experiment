@@ -1,0 +1,17 @@
+[package]
+name = "rats"
+version = "0.0.0"
+authors = ["lewisaronmilne"]
+
+[dependencies]
+gfx = "*"
+glutin = "*"
+gfx_window_glutin = "*"
+gfx_device_gl = "*"
+cgmath = "*"
+image = "*"
+serde_json = "*"
+specs = "*"
+imgui = { path = "libs/imgui" }
+imgui-sys = { path = "libs/imgui-sys" }
+imgui-gfx-renderer = { path = "libs/imgui-gfx-renderer" }
